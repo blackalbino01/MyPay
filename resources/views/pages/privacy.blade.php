@@ -17,7 +17,7 @@
                 <div class="card-body p-7 p-md-9">
                     <div class="mb-7">
                         <!-- Text -->
-                        <p>At PayMe one of our main priorities is the privacy of our visitors. This Privacy
+                        <p>At MyPay one of our main priorities is the privacy of our visitors. This Privacy
                             Policy document contains types of information that is collected and recorded by PayMe and
                             how we use
                             it.</p>

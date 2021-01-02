@@ -5,9 +5,6 @@
     <!-- Title -->
     <title>{{ config('app.name', 'Laravel') }} - Home</title>
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -42,7 +39,7 @@
                 c0.4,0.3,0.8,0.5,1.2,0.7c0.6,0.2,1.3,0.5,2.3,0.8c1.6,0.4,3.1,1.2,4.3,2.3c0.9,0.9,1.4,2.1,1.3,3.4c0.1,1.4-0.5,2.8-1.5,3.8
                 c-1.3,1.1-2.8,1.7-4.5,1.8V29h-3L17,26.4z"/>
             </svg>
-                    <span class="u-header__navbar-brand-text">PayMe</span>
+                    <span class="u-header__navbar-brand-text">MyPay</span>
                 </a>
                 <!-- End Logo -->
 
@@ -126,8 +123,8 @@
                     <span class="btn btn-icon btn-soft-primary rounded-circle mb-4">
                       <span class="small font-weight-semi-bold btn-icon__inner">01.</span>
                     </span>
-                                    <h2 class="h4 text-primary">Signup to PayMe</h2>
-                                    <p>Create your account at PayMe and start accept payments online in no time.</p>
+                                    <h2 class="h4 text-primary">Signup to MyPay</h2>
+                                    <p>Create your account at MyPay and start accepting payments online in no time.</p>
                                 </div>
                                 <!-- End Title -->
                             </div>
@@ -140,8 +137,8 @@
                     <span class="btn btn-icon btn-soft-primary rounded-circle mb-4">
                       <span class="small font-weight-semi-bold btn-icon__inner">02.</span>
                     </span>
-                                    <h2 class="h4 text-primary">Connect your Stripe Account</h2>
-                                    <p>Connect your Stripe account using Stripe Connect, no code is required.</p>
+                                    <h2 class="h4 text-primary">Connect your PayPal Account</h2>
+                                    <p>Connect your PayPal account using PayPal Connect, no code is required.</p>
                                 </div>
                                 <!-- End Title -->
                             </div>
@@ -171,7 +168,7 @@
                                     <h2 class="h4 text-primary">Get paid</h2>
                                     <p>You'll be paid directly to your Bank Account on weekly basis. All payouts will be
                                         automatically
-                                        processed by Stripe.</p>
+                                        processed by PayPal.</p>
                                 </div>
                                 <!-- End Title -->
                             </div>
@@ -202,9 +199,9 @@
         <div class="row justify-content-lg-between">
             <div class="col-lg-4 mb-7 mb-lg-0">
                 <!-- Title -->
-                <small class="text-secondary text-uppercase font-weight-medium mb-2">What is PayMe?</small>
-                <h3 class="font-weight-medium">PayMe is a checkout payment solution built on top of Stripe API.</h3>
-                <p>Payme allows you to collect one-time payments and sell your services and digital products
+                <small class="text-secondary text-uppercase font-weight-medium mb-2">What is MyPay?</small>
+                <h3 class="font-weight-medium">MyPay is a checkout payment solution built on top of PayPal API.</h3>
+                <p>MyPay allows you to collect one-time payments and sell your services and digital products
                     in no time.
                 </p>
                 <!-- End Title -->
@@ -241,7 +238,7 @@
                             <img src="{{ asset('img/icon-security.svg') }}">
                         </figure>
                         <h4 class="h5">World-class security</h4>
-                        <p class="font-size-1">PayMe is built on Stripe, which is PCI-certified Service Provider.</p>
+                        <p class="font-size-1">MyPay is built on PayPal, which is PCI-certified Service Provider.</p>
                         <!-- End Icon Blocks -->
                     </div>
 
@@ -265,7 +262,7 @@
     <div class="bg-primary text-white text-center">
         <div class="container space-1">
         <span class="h6 d-block d-lg-inline-block font-weight-light mb-lg-0">
-          <span class="font-weight-semi-bold">PayMe</span> – is a one-stop solution to accept payments online
+          <span class="font-weight-semi-bold">MyPay</span> – is a one-stop solution to accept payments online
         </span>
             <a class="btn btn-sm btn-white transition-3d-hover font-weight-normal ml-2" href="{{ route('register') }}">Create
                 account</a>

@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
-Route::get('page/privacy', [App\Http\Controllers\PageController::class,'privacy'])->name('page.privacy');
-Route::get('page/terms', [\App\Http\Controllers\PageController::class, 'term'])->name('page.terms');
+Route::get('/', [\App\Http\Controllers\PageController::class, 'home']);
+Route::get('privacy', [App\Http\Controllers\PageController::class,'privacy'])->name('page.privacy');
+Route::get('terms', [\App\Http\Controllers\PageController::class, 'term'])->name('page.terms');
 Auth::routes(['verify' => true]);
