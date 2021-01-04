@@ -17,3 +17,7 @@ Route::get('/', [\App\Http\Controllers\PageController::class, 'home']);
 Route::get('privacy', [App\Http\Controllers\PageController::class,'privacy'])->name('page.privacy');
 Route::get('terms', [\App\Http\Controllers\PageController::class, 'term'])->name('page.terms');
 Auth::routes(['verify' => true]);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
